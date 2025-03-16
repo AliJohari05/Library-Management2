@@ -6,3 +6,5 @@ public class Main {
 class Person {
     String name;
 }
+class Library {
+}
