@@ -1,46 +1,52 @@
-# 🚀 Simple Java App
+# 📚 Advanced Library Management System (Java)
 
-This is a minimal Java application with a single entry point in `Main.java`.
-
-It can be used as a starting point for small utilities, quick prototypes, or educational examples.
+This Java application is part of a Library Management System designed to handle flexible and accurate book borrowing and returning operations. It calculates the time difference between borrow and return and can handle multiple date-time formats.
 
 ---
 
 ## 🧩 Features
 
-- ✅ Clean and minimal structure
-- ✅ Single `Main` class
-- ✅ Easy to compile and run
+- 🧠 Smart parsing of multiple date-time formats
+- ⏳ Accurate calculation of duration between events
+- 💰 Suitable for applying fines based on late returns
+- 📆 Uses `java.time` API with `DateTimeFormatterBuilder`
 
 ---
 
 ## ▶️ How to Run
 
-### Compile:
 ```bash
 javac Main.java
-```
-
-### Run:
-```bash
 java Main
 ```
 
+> You can modify date/time inputs directly in the code to simulate various return scenarios.
+
 ---
 
-## 📁 Project Structure
+## 📁 Structure
 
 ```
 .
-├── Main.java
-└── README.md
+├── Main.java       # Logic for calculating time differences and fine basis
+└── README.md       # Project overview
 ```
 
 ---
 
-## 📣 Notes
+## 💡 Ideal Use Cases
 
-- Written in pure Java (no external libraries required)
-- Compatible with Java 8+
+- Library late return penalty systems
+- Booking/scheduling time tracking
+- Rental systems (e.g., equipment, media, etc.)
 
-Happy coding! 😄
+---
+
+## ⚙️ Requirements
+
+- Java 8 or higher  
+- No external dependencies — uses standard Java libraries only
+
+---
+
+Simple. Accurate. Extendable. 📖
